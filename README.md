@@ -6,6 +6,8 @@
    <img src="https://img.shields.io/badge/dependencies-tested-green">
    <img src="https://img.shields.io/badge/licence-GNU-green">
 </a>       
+
+
 OF_Finder is a computational tool using deep learning for osteoclast segmentation, classification, and counting.
 
 Copyright (C) 2021 Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki, Daisuke Kihara, and Purdue University. 
