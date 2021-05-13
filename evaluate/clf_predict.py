@@ -15,6 +15,7 @@ from data_processing.Single_Dataset import SingleTestDataset
 from evaluate.model_inference import model_inference
 from data_processing.relabel_input_image import relabel_input_image
 from visualize.Visualize_Predict_Image import Visualize_Predict_Image
+from visualize.Visualize_Detail_Predict_Image import Visualize_Detail_Predict_Image
 def Build_Coord_List(Overall_Segment_Array):
     """
     :param Overall_Segment_Array: segmentation indicator array
@@ -81,7 +82,7 @@ def clf_predict(model, Overall_Segment_Array, imarray, save_path, params,origin_
     else:
         print("Segmented part can not work, please have a check")
         return
-    All_Predict_Img = load_input_array(save_path,count_image1)
+    All_Predict_Img = load_input_array(feature_save_path,count_image1)
 
     #feeding to dataloader
 
