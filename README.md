@@ -127,7 +127,7 @@ python3 main.py -h
 ```
 ### 1 Single Microscopy Image Detection
 ```
-python3 main.py --mode=0 -F=[img_path] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50 
+python3 main.py --mode=0 -F=[img_path] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50  --remove_pixel=[num_of_remove_pixel]
 ```
 [img_path] is the input microscopy image;   
 [model_path] is the trained model path, which we kept our model in "best_model/ema_best.pth.tar";   
@@ -142,14 +142,14 @@ Parameters only for --type=1 (image with large cells):
 
 #### Example Command
 ```
-python3 main.py --mode=0 -F=example/input/input_example.tif -M=best_model/ema_best.pth.tar --choose=0 --type=0 --class=2 --height=50 --width=50
+python3 main.py --mode=0 -F=example/input/input_example.tif -M=best_model/ema_best.pth.tar --choose=0 --type=0 --class=2 --height=50 --width=50 --remove_pixel=500
 ```
 #### Output 
 Output are kept in [Predict_Result] directory and the example output is kept in [output](https://github.com/kiharalab/OC_Finder/tree/main/example/output)
 
 ### 2 Multiple Microscopy Images Detection
 ```
-python3 main.py --mode=0 -F=[img_dir] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50 
+python3 main.py --mode=0 -F=[img_dir] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50 --remove_pixel=[num_of_remove_pixel]
 ```
 [img_dir] specifies the  directory includes many microscopy images. Other parameters are the same as before.
 
