@@ -15,7 +15,8 @@ def Draw_Coord_Figure(tmp_coord_figure_path,coord_list,imarray,height,width):
     #print(imarray.shape)
     modify_imarray=np.array(imarray,dtype=np.uint8)
     img=Image.fromarray(modify_imarray)
-    fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf", 65)
+    #fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf", 65)
+    fnt = ImageFont.load_default()
     #img = Image.fromarray(imarray.astype(np.uint8))
     draw = ImageDraw.Draw(img)
     for k in range(len(coord_list)):

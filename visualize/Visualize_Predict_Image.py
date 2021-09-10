@@ -43,7 +43,8 @@ def Visualize_Predict_Image(imarray, save_path, height, width, coord_list,Label_
     tmp_img_path = os.path.join(save_path, "Original.png")
     img_origin.save(tmp_img_path)
     draw = ImageDraw.Draw(img)
-    fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf",65)
+    #fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf",65)
+    fnt = ImageFont.load_default()
     for k in range(len(Label_List)):
         tmp_coord=coord_list[k]
         draw.text((tmp_coord[0]-width/2, tmp_coord[1]-height*2/3),str(Label_List[k]) ,font=fnt, fill=(255, 0, 0),stroke_width=3,

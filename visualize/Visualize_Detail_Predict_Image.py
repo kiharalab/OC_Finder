@@ -26,7 +26,8 @@ def Visualize_Detail_Predict_Image(imarray, save_path, height, width, coord_list
     img = Image.fromarray(tmp_array.astype(np.uint8))
     tmp_img_path = os.path.join(save_path, "Detail_Segment.png")
     img.save(tmp_img_path)
-    fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf", 65)
+    #fnt = ImageFont.truetype("Pillow/Tests/fonts/FreeMono.ttf", 65)
+    fnt = ImageFont.load_default()
     draw = ImageDraw.Draw(img)
     for k in range(len(Label_List)):
         tmp_coord = coord_list[k]
