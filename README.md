@@ -100,7 +100,9 @@ python main.py -h
   -h, --help            show this help message and exit
   -F F                  input microscopy image path
   --mode MODE           0: single image processing; 1: multiple image processing
-  --type TYPE           setting type: 0: common setting; 1: including large cells
+  --type TYPE           setting type: 
+                        0: default setting for segmentation with Otsu’s binarization and fixed filter size for morphological opening. 
+                        1: optional choice in threshold value for the binarization and filter size for morphological closing
   --choose CHOOSE       gpu id choose for training, if you use -1 means you do not use gpu
   --class CLASS         number of classes
   --cardinality CARDINALITY
