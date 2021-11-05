@@ -151,7 +151,7 @@ Output are kept in [Predict_Result] directory and the example output is kept in 
 
 ### 2 Multiple Microscopy Images Detection
 ```
-python main.py --mode=0 -F=[img_dir] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50 --remove_pixel=[num_of_remove_pixel]
+python main.py --mode=1 -F=[img_dir] -M=[model_path] --choose=[gpu_id] --type=[1 or 0] --filter_size=[filter_size] --threshold=[threshold_level] --resize=[1 or 0] --resize_height=[resize_height] --resize_width=[resize_width] --class=2 --height=50 --width=50 --remove_pixel=[num_of_remove_pixel]
 ```
 [img_dir] specifies the  directory includes many microscopy images. Other parameters are the same as before.
 
