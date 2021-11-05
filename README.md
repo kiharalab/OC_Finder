@@ -72,12 +72,12 @@ pip3 install -r requirement.txt --user
 ```
 If you encounter any errors, you can install each library one by one:
 ```
-pip3 install Pillow==6.2.2
-pip3 install numpy==1.18.2
-pip3 install pandas==1.0.3
-pip3 install opencv-python==4.1.2.30
-pip3 install matplotlib==3.2.1
-pip3 install torch==1.1.0
+pip3 install Pillow>=6.2.2
+pip3 install numpy>=1.18.2
+pip3 install pandas>=1.0.3
+pip3 install opencv-python>=4.1.2.30
+pip3 install matplotlib>=3.2.1
+pip3 install torch>=1.1.0
 ```
 
 #### 3.2 Install with anaconda
