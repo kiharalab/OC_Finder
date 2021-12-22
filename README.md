@@ -23,10 +23,13 @@ Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki & Daisuke Kih
 @article{wang2021oc_finder,   
   title={OC_Finder: A deep learning-based software for osteoclast segmentation, classification, and counting},   
   author={Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki, and Daisuke Kihara},    
-  journal={},    
+  journal={Frontiers in Bioinformatics (Submitted)},    
   year={2021}    
 }   
 ```
+
+# Colab Website (Online platform): https://bit.ly/OC_Finder
+**All the functions in this github are available here**
 
 ## Training Dataset: [Download](https://doi.org/10.5281/zenodo.5022015)
 ## Introduction
