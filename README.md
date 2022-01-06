@@ -17,11 +17,11 @@ License: GPL v3 for academic use. (For commercial use, please contact us for dif
 Contact: Daisuke Kihara (dkihara@purdue.edu)
 
 ## Citation:
-Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki & Daisuke Kihara. OC_Finder: A deep learning-based software for osteoclast segmentation, classification, and counting. (2021).
+Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki & Daisuke Kihara. OC_Finder: Osteoclast segmentation, counting, and classification using watershed and deep-learning, classification, and counting. (2021).
 
 ```
 @article{wang2021oc_finder,   
-  title={OC_Finder: A deep learning-based software for osteoclast segmentation, classification, and counting},   
+  title={OC_Finder: Osteoclast segmentation, counting, and classification using watershed and deep-learning},   
   author={Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki, and Daisuke Kihara},    
   journal={Frontiers in Bioinformatics (Submitted)},    
   year={2021}    
