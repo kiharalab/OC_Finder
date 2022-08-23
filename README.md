@@ -12,7 +12,7 @@ OF_Finder is a computational tool using deep learning for osteoclast segmentatio
 
 Copyright (C) 2021 Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki, Daisuke Kihara, and Purdue University. 
 
-License: GPL v3 for academic use. (For commercial use, please contact us for different licensing.)
+License: GPL v3. (If you are interested in a different license, for example, for commercial use, please contact us.) 
 
 Contact: Daisuke Kihara (dkihara@purdue.edu)
 
