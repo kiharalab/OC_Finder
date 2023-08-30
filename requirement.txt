@@ -3,4 +3,4 @@ numpy>=1.18.2
 pandas>=1.0.3
 opencv-python>=4.1.2.30
 matplotlib>=3.2.1
-torch>=1.1.0
+torch>=2.0.1

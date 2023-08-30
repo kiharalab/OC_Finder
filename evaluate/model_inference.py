@@ -22,8 +22,8 @@ def model_inference(model,test_dataloader,params,save_path,added_name,coord_list
     model.eval()  # very important, fix batch normalization
     for i, inputs in enumerate(test_dataloader):
         if params['choose'] != "-1":
-            inputs = inputs.cuda()
-            inputs = Variable(inputs, volatile=True)
+            inputs = inputs.to('cpu')
+        inputs = Variable(inputs)
         outputs, p1 = model(inputs)
         outputs = F.softmax(outputs, dim=1)
         if params['choose'] != "-1":

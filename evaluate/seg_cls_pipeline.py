@@ -47,7 +47,7 @@ def config_model(params,model_path):
     """
     model = resnet20(num_class=params['class'])
     if params['choose'] != "-1":
-        model = model.cuda()
+        model = model.to('cpu')
         model = nn.DataParallel(model, device_ids=None)
     model_state_dict = torch.load(model_path, map_location='cpu')
     if 'ema_state_dict' in model_state_dict.keys():
