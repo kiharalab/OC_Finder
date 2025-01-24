@@ -29,6 +29,7 @@ Xiao Wang*, Mizuho Kittaka*, Yilin He, Yiwei Zhang, Yasuyoshi Ueki & Daisuke Kih
 ```
 
 # Colab Website (Online platform): https://bit.ly/OC_Finder
+Also in this link: [link](https://colab.research.google.com/github/kiharalab/OC_Finder/blob/main/OC_Finder.ipynb). 
 **All the functions in this github are available here**
 
 ## Training Dataset: [Download](https://doi.org/10.5281/zenodo.5022015)
